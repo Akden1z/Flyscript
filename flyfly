@@ -1,0 +1,15 @@
+Fly.Name = "Fly"
+Fly.Parent = main
+Fly.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Fly.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fly.Position = UDim2.new(0.0900000036, 0, 0.225714296, 0)
+Fly.Size = UDim2.new(0, 410, 0, 50)
+Fly.Font = Enum.Font.Fantasy
+Fly.Text = "Fly (Press E)"
+Fly.TextColor3 = Color3.fromRGB(98, 98, 98)
+Fly.TextScaled = true
+Fly.TextSize = 14.000
+Fly.TextWrapped = true
+Fly.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/q6S4AcxJ'))()
+end)
